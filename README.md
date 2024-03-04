@@ -1,4 +1,4 @@
-# Workshop-1
+# Workshop-1 Part 1
 
 ## Loops:
 - Put the background in set-up  - so it doesn't draw the background over and over…?
