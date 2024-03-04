@@ -1,6 +1,6 @@
 # Workshop-1
 
-##LOOPS:
+## Loops:
 - Put the background in set-up  - so it doesn't draw the background over and over…?
 - Use a while loop to repeat the rectangle until the end of the canvas - as long as “this” “that” will happen. 
 - Change just x or y in loop so make rectangles go across or down and change x and y to make them go diagonally. OR just use x twice if a and y = the same thing
@@ -11,7 +11,7 @@ x   =  x  30     is the same as    x += 30
 For loop:    for( variable ; exit condition ; incrementation){
                         ‘ actual code like - rect etc’
                     }
-##Making functions:
+## Making functions:
 
 QUESTION: different spellings of colour + other little problems with colour
 
