@@ -1,5 +1,7 @@
 # Workshop-1 Part 1
 
+This is the URL - https://emmazig.github.io/Workshop-1/
+
 ## Loops:
 - Put the background in set-up  - so it doesn't draw the background over and over…?
 - Use a while loop to repeat the rectangle until the end of the canvas - as long as “this” “that” will happen. 
