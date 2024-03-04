@@ -1,65 +1,30 @@
-
-  let y = 0
-  let a = 50
-  let b = 10
-  let green = 8
-  let red =  15  
-  let yellow = 6
-    
-
-
- function setup() {
+function setup() {
   createCanvas(400, 400);
+  background(220);
+  
+   for(x = 0; x < 3; x ++ )
+   plantTree( random(0, width), 200,random(10,50), );
+
+}
+function draw(){
+  
 }
 
- function draw() {
-  background(250, 250, 250);
-  
-  
-  
+function plantTree(xPos, yPos, trunk,){
+  fill(100, 80, 60);
   noStroke();
-  fill(40, 90, 30);
-  ellipse(200, y, 100, 100);
-  y = y + green
-  
-  if(y > 350){
-    green = -8
-  }
-  
-  if(y < 50){
-    green = 8
-  }
-    
-  
-  fill(230, 120, 100);
-  ellipse(350, b, 100, 100);
-  b = b + red
-  
-  if(b > 350){
-    red = -15
-  }
-  
-  if(b < 50){
-    red = 15
-  }
-  
-  
-  fill(230, 180, 70);
-  ellipse(50, a, 100, 100);
-  a = a + yellow
-  
-  if(a > 350){
-    yellow = -6
-  }
-  
-  if(a < 50){
-    yellow = 6
-  }
-  
- }
-  
-  
-  
+  rect(xPos, yPos, 35, trunk);
+  fill(60, 150, 70);
+  triangle(xPos - 30,200, xPos + 20, yPos - 110, xPos + 65, 200);
+}
 
- 
   
+  // plantTree(250, 130, 60, color(60, 140, 50));
+
+// noStroke();
+//   fill(30, 70, 30);
+//   triangle(100, 130, 150, 20, 200, 130);
+  
+//   noStroke();
+//   fill(70, 50, 30)
+//   rect(130, 130, 35, 50);
