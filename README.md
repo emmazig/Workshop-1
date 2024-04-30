@@ -1,6 +1,6 @@
 # Workshop-1 Part 1
 
-This is the URL - https://emmazig.github.io/Workshop-1/
+This is the URL - https://emmazig.github.io/Workshop-task-1/
 
 ## Loops:
 - Put the background in set-up  - so it doesn't draw the background over and over…?
